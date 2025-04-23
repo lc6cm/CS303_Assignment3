@@ -1,0 +1,16 @@
+﻿  Main.cpp
+  Queue.cpp
+C:\Users\gcamp\source\repos\CS303_Assignment3\Queue.cpp(67,16): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\gcamp\source\repos\CS303_Assignment3\Queue.cpp(67,16):
+      the template instantiation context (the oldest one first) is
+          C:\Users\gcamp\source\repos\CS303_Assignment3\Queue.cpp(109,26):
+          see reference to class template instantiation 'Queue<int>' being compiled
+          C:\Users\gcamp\source\repos\CS303_Assignment3\Queue.cpp(57,93):
+          while compiling class template member function 'int Queue<int>::linear_search_last(const std::vector<T,std::allocator<T>> &,const T &,size_t)'
+          with
+          [
+              T=int
+          ]
+  
+  Generating Code...
+  CS303_Assignment3.vcxproj -> C:\Users\gcamp\source\repos\CS303_Assignment3\x64\Debug\CS303_Assignment3.exe
